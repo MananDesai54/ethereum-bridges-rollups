@@ -1,0 +1,10 @@
+{
+  "name": "eth-besu-bridge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ethereumjs/tx": "^3.2.1",
+    "web3": "^1.4.0"
+  }
+}
