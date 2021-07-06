@@ -1,0 +1,16 @@
+{
+  "name": "besu-truffle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "besu": "besu --network=dev --miner-enabled --miner-coinbase=0xfe3b557e8fb62b89f4916b721be55ceb828dbd73 --rpc-http-cors-origins='all' --host-allowlist='*' --rpc-ws-enabled --rpc-http-enabled --data-path=/tmp/tmpDatadir",
+    "besu-no-mine": "besu --network=dev --rpc-http-cors-origins='all' --host-allowlist='*' --rpc-ws-enabled --rpc-http-enabled --data-path=/tmp/tmpDatdir",
+    "besu-rinkeby": "besu --genesis-file=./rinkeby-genesis.json --data-path=/tmp/tmpDatadir",
+    "besu-rinkeby2": "besu --network=rinkeby --data-path=/tmp/tmpDatdir",
+    "besu-ropsten": "besu --network=ropsten"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1"
+  }
+}
