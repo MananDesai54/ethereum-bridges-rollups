@@ -1,0 +1,12 @@
+{
+  "name": "eth-bsc-bridge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0-beta.0",
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "web3": "^1.3.4",
+    "dotenv": "10.0.0"
+  }
+}
