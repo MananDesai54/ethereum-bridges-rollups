@@ -12,7 +12,7 @@ module.exports = {
     },
     bscTestnet: {
       provider: () => new HDWalletProvider(mnemonic, keys.binanceTestNetURL),
-      network_id: 97,
+      network_id: 97, // binance testnet
       confirmations: 10,
       timeoutBlocks: 200,
       skipDryRun: false,
