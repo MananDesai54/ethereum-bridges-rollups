@@ -1,2 +1,2 @@
-# ethereum-besu-bridge
-- Building bridges for ethereum and other chains.
+# ethereum-bridge-rollups
+- Building bridges & rollups for ethereum and other chains.
